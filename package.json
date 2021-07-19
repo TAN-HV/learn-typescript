@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon index"
+    "watch": "nodemon index",
+    "go" : "tsc index.ts && node index.js"
   },
   "author": "",
   "license": "ISC",
